@@ -30,19 +30,14 @@ class TicTacToe {
         this.winnerToken = document.querySelector('#winner-token');
         this.drawScreen = document.querySelector('#draw-screen');
 
-        //  starting of the game board. This will check to see if the winner is known.
+        //  This is the start of the game board. This will check to see if the winner is known.
         this.gameState = [
             [null, null, null],
             [null, null, null],
             [null, null, null]
         ];
 
-        // Array of Win States
-        // This is provided for you. Each of these arrays represents the ways
-        // a player can win Tic Tac Toe. Each item in the array is another
-        // array. Each of those arrays contains a set of (X, Y) coordinates.
-        // If a player has claimed the tile at each of the coordinates listed in
-        // one of the win states, then they have won the game.
+        // Each of these arrays represents the way a player can win this Tic Tac Toe game. 
         this.winStates = [
             [
                 [0, 0],
@@ -253,10 +248,10 @@ class TicTacToe {
     });
     // NOTE: End of the "DOMContentLoaded"
 
-    //  displays "win" signal.
+    //  Displays "win" signal.
     document.addEventListener('win', (event) => {
 
-    // displays the "tie" game screen.
+    // Displays the "tie" game screen.
     console.log('win event fired');
     game.showWinScreen();
     })
@@ -266,12 +261,9 @@ class TicTacToe {
         game.showDrawScreen();
     })
 
-    // TODO: In the handler for the "draw" event, call the `game.showDrawScreen()`
-    // method to display the tie game screen.
-
     // NOTE: End of the "draw" event listener.
 
-    // External function for event listeners provided for you.
+    
     function handleMove(event) {
         // Record the move for the current player.
         game.recordMove(event);

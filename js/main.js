@@ -24,7 +24,7 @@ class TicTacToe {
 
         this.startPrompt = document.querySelector('#start-prompt');
         this.movePrompt = document.querySelector('#move-prompt');
-        this.curentPlayerToken = document.querySelector('#player-token');
+        this.currentPlayerToken = document.querySelector('#player-token');
         this.gameboard = document.querySelector('#gameboard');
         this.winScreen = document.querySelector('#win-screen');
         this.winnerToken = document.querySelector('#winner-token');
@@ -234,7 +234,7 @@ class TicTacToe {
             console.log('init move prompt');
 
         }
-    } // End of the Tic Tac Toe Class definition.
+     } // End of the Tic Tac Toe Class definition.
 
     // This will control the game so our players can successfull play.
     document.addEventListener('DOMContentLoaded', (event) => {

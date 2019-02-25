@@ -4,7 +4,7 @@
 }
 #win-screen, #draw-screen {
     display: none;
-    background: rgba(10, 46, 54, 0.8);
+    background: #0088cc;
     margin: 0;
     padding: 0;
     text-align: center;
@@ -25,7 +25,7 @@
     margin-top: 2rem;
 }
 #gameboard {
-    background-color: rgba(253, 255, 252, 0.1);
+    background-color: #1c0070;
 }
 #gameboard .row div {
     text-align: center;
@@ -52,7 +52,7 @@
 
 }
 .tile.played {
-    color: rgba(255, 186, 8, 1);
+    color: #b81414;;
     background: rgba(253, 255, 252, 0.1);
     cursor: pointer;
 }
@@ -72,7 +72,7 @@ html {
 /* colors */
 
 .spring-green-color {
-    color: rgba(39, 251, 107, 1);
+    color: #b81414;
 }
 .baby-powder-color {
     color: rgba(253, 255, 252, 1);
@@ -85,7 +85,7 @@ html {
     color: rgba(255, 186, 8, 1);
 }
 .spanish-gray-color {
-    color: rgba(150, 154, 151, 1);
+    color: rgba(39, 251, 107, 1);
 }
 
 .spring-green-bg {

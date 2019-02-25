@@ -148,7 +148,7 @@ class TicTacToe {
     switchPlayer() {
 
         if (this.currentPlayer === this.player1) {
-            this.currentPlayer === this.player2
+            this.currentPlayer = this.player2
         } else {
             this.currentPlayer = this.player1;
         }
